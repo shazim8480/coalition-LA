@@ -6,6 +6,11 @@ export default {
       fontFamily: {
         lato: ["Lato", "sans-serif"],
         oswald: ["Oswald", "sans-serif"],
+        bebas: ["Bebas Neue", "sans-serif"],
+      },
+      colors: {
+        primary: "#414f6b",
+        secondary: "#4d4d4d",
       },
     },
   },
