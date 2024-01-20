@@ -20,8 +20,12 @@ const Navbar = () => {
           </div>
           {/* nav refs */}
           <div className="flex space-x-4 italic font-semibold underline text-secondary font-lato">
-            <a href="#">01. History</a>
-            <a href="#">02. Team</a>
+            <a className="hover:text-white" href="#">
+              01. History
+            </a>
+            <a className="hover:text-white" href="#">
+              02. Team
+            </a>
           </div>
         </div>
       </div>
