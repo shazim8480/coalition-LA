@@ -24,14 +24,12 @@ const HistoryCarousel = () => {
           }}
           slidesPerView={4}
           pagination={{ clickable: true }}
-          onSwiper={(swiper) => console.log(swiper)}
-          onSlideChange={() => console.log("slide change")}
+          // onSwiper={(swiper) => console.log(swiper)}
+          // onSlideChange={() => console.log("slide change")}
         >
-          <div className="mb-10">
-            <SwiperSlide>
-              <img src="/src/assets/carousel-1.png" alt="carousel-1" />
-            </SwiperSlide>
-          </div>
+          <SwiperSlide>
+            <img src="/src/assets/carousel-1.png" alt="carousel-1" />
+          </SwiperSlide>
           <SwiperSlide>
             <img src="/src/assets/carousel-2.png" alt="carousel-2" />
           </SwiperSlide>

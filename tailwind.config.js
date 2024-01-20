@@ -11,6 +11,7 @@ export default {
       colors: {
         primary: "#414f6b",
         secondary: "#4d4d4d",
+        mountainGray: "#b0b4be",
       },
     },
   },
