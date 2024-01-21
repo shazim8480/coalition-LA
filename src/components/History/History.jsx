@@ -3,7 +3,7 @@ import TitleText from "../UI/TitleText";
 
 const History = () => {
   return (
-    <section className="h-screen bg-[url('/src/assets/history-bg.png')] bg-no-repeat">
+    <section className="h-[700px]  bg-[url('/src/assets/history-bg.png')] bg-no-repeat">
       <div className="px-4 pt-16 mx-auto md:max-w-2xl lg:max-w-3xl xl:max-w-5xl">
         {/* history img and title */}
         <TitleText imgSrc={"/src/assets/01..png"} title={"History"} />

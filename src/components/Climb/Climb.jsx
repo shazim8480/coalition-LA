@@ -1,12 +1,13 @@
 import React from "react";
 import TitleText from "../UI/TitleText";
 import MountainSchedule from "./MountainSchedule";
+import ScheduleView from "./MountainOneView";
 
 const Climb = () => {
   return (
     <>
-      <section className="px-4 pt-16 mx-auto md:max-w-2xl lg:max-w-3xl xl:max-w-5xl">
-        <div className="pb-16 md:flex lg:flex xl:flex md:items-start lg:items-start xl:items-start md:justify-evenly lg:justify-evenly xl:justify-evenly">
+      <section className="px-4 py-16 mx-auto md:max-w-2xl lg:max-w-3xl xl:max-w-5xl">
+        <div className="md:flex lg:flex xl:flex md:items-start lg:items-start xl:items-start md:justify-evenly lg:justify-evenly xl:justify-evenly">
           {/* climb img and title */}
           <TitleText
             textStyle={

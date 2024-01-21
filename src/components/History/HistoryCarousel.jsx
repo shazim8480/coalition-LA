@@ -16,13 +16,37 @@ const HistoryCarousel = () => {
       <div className="px-4 mx-auto md:max-w-2xl lg:max-w-3xl xl:max-w-5xl">
         <Swiper
           modules={[Autoplay, Pagination, Scrollbar, A11y]}
-          spaceBetween={20}
           loop={true}
           autoplay={{
             delay: 2000,
             disableOnInteraction: false,
           }}
-          slidesPerView={4}
+          centeredSlides={false}
+          centerInsufficientSlides={true}
+          breakpoints={{
+            320: {
+              slidesPerView: 1,
+            },
+            375: {
+              slidesPerView: 1,
+            },
+            425: {
+              slidesPerView: 1,
+            },
+            768: {
+              slidesPerView: 3,
+              spaceBetween: 20,
+            },
+            1024: {
+              slidesPerView: 4,
+              spaceBetween: 20,
+            },
+            1440: {
+              slidesPerView: 4,
+              spaceBetween: 20,
+            },
+          }}
+          // slidesPerView={4}
           pagination={{ clickable: true }}
           // onSwiper={(swiper) => console.log(swiper)}
           // onSlideChange={() => console.log("slide change")}
