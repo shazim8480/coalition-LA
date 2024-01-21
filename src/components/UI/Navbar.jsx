@@ -1,6 +1,5 @@
-import React, { Fragment, useEffect, useRef, useState } from "react";
+import React, { Fragment } from "react";
 import { Menu, Transition } from "@headlessui/react";
-import { ChevronDownIcon } from "@heroicons/react/20/solid";
 const Navbar = () => {
   return (
     <nav className="sticky top-0 z-30 bg-white border-b border-gray-400 backdrop-filter backdrop-blur-lg bg-opacity-30 ">
