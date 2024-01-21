@@ -20,16 +20,10 @@ const Navbar = () => {
           </div>
           {/* nav refs */}
           <div className="flex space-x-4 italic font-bold underline text-secondary font-lato">
-            <a
-              className="uppercase smoothScroll hover:text-white"
-              href="#history"
-            >
+            <a className="uppercase hover:text-white" href="#history">
               01. History
             </a>
-            <a
-              className="uppercase smoothScroll hover:text-white"
-              href="#climb"
-            >
+            <a className="uppercase hover:text-white" href="#climb">
               02. Team
             </a>
           </div>
