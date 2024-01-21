@@ -32,8 +32,8 @@ const MountainOneView = () => {
     <section className="h-full bg-[url('/src/assets/mountain-1-view.png')] bg-no-repeat">
       <div className="px-4 py-32 mx-auto md:max-w-2xl lg:max-w-3xl xl:max-w-5xl">
         {/* schedule component */}
-        <div className="px-8 py-3 bg-white opacity-70 w-[350px]">
-          <h4 className="font-oswald font-semibold text-primary text-[32px] uppercase pb-2">
+        <div className="px-8 py-3 bg-white opacity-70 w-[280px] md:w-[350px] lg:w-[350px] xl:w-[350px]">
+          <h4 className="font-oswald font-semibold text-primary text-[24px] md:text-[32px] lg:text-[32px] xl:text-[32px] uppercase pb-2">
             Schedule
           </h4>
           {mountainOneData.map((scheduleItem, index) => {

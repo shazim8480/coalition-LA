@@ -15,7 +15,11 @@ const MountainSchedule = () => {
       <div className="bg-primary">
         {/* mobile view > accordion */}
         <div className="block md:hidden lg:hidden xl:hidden">
-          <Accordion items={items} />
+          <Accordion
+            isMountainTwoSelected={isMountainTwoSelected}
+            setIsMountainTwoSelected={setIsMountainTwoSelected}
+            items={items}
+          />
         </div>
         {/* tablet, laptop and desktop view */}
         <div className="hidden md:block lg:block xl:block md:px-4 lg:px-4 xl:px-4 md:mx-auto lg:mx-auto xl:mx-auto md:max-w-2xl lg:max-w-3xl xl:max-w-5xl">
@@ -35,8 +39,14 @@ const MountainSchedule = () => {
           </div>
         </div>
       </div>
-      {/* dynamically render mountain views */}
-      {isMountainTwoSelected ? <MountainTwoView /> : <MountainOneView />}
+      {/* dynamically render mountain views - mobile */}
+      {/* <div className="block md:hidden lg:hidden xl:hidden">
+        {renderMountainView()}
+      </div> */}
+      {/* dynamically render mountain views - tablet, laptop and desktop */}
+      <div className="hidden md:block lg:block xl:block">
+        {isMountainTwoSelected ? <MountainTwoView /> : <MountainOneView />}
+      </div>
     </>
   );
 };
