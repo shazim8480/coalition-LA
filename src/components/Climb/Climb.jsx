@@ -11,7 +11,7 @@ const Climb = () => {
           {/* climb img and title */}
           <TitleText
             textStyle={
-              "md:pt-[6px] lg:pt-[13px] xl:pt-[30px] left-[50%] md:left-[133px] lg:left-[223px] xl:left-[335px]"
+              "md:pt-[6px] lg:pt-[13px] xl:pt-[30px] left-[50%] md:left-[17.5%] lg:left-[21.75%] xl:left-[335px]"
             }
             imgSrc={"/src/assets/02..png"}
             title={"Climb"}
