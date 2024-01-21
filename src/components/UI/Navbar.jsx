@@ -14,7 +14,7 @@ const Navbar = () => {
               alt="hero-LA"
             />
             <div className="uppercase leading-5 font-bebas tracking-wider text-[20px] ml-2">
-              <h1 className="block text-secondary">LOSANGELES</h1>
+              <h3 className="block text-secondary">LOSANGELES</h3>
               <span className="text-primary">MOUNTAINS</span>
             </div>
           </div>
