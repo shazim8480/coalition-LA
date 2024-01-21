@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "/src/assets/Logo.svg";
+import { Link, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -19,11 +19,17 @@ const Navbar = () => {
             </div>
           </div>
           {/* nav refs */}
-          <div className="flex space-x-4 italic font-semibold underline text-secondary font-lato">
-            <a className="hover:text-white" href="#">
+          <div className="flex space-x-4 italic font-bold underline text-secondary font-lato">
+            <a
+              className="uppercase smoothScroll hover:text-white"
+              href="#history"
+            >
               01. History
             </a>
-            <a className="hover:text-white" href="#">
+            <a
+              className="uppercase smoothScroll hover:text-white"
+              href="#climb"
+            >
               02. Team
             </a>
           </div>
